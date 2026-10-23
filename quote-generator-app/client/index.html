@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Quote Generator</h1>
+        
+        <div class="quote-card">
+            <p id="quoteText">Click the button below to generate a quote!</p>
+            <span id="quoteAuthor">- Author</span>
+        </div>
+
+        <div class="btn-group">
+            <button id="newQuoteBtn">New Quote</button>
+            <button id="favoriteBtn">❤️ Favorite</button>
+            <button id="copyBtn">📋 Copy</button>
+        </div>
+
+        <div class="history-section">
+            <h2>Saved Favorites</h2>
+            <ul id="historyList">
+                <!-- Saved quotes will appear here dynamically -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
